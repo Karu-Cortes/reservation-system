@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "_id": 1,
+      "img": "https://tribbuspa.com/wp-content/uploads/2022/10/Logo-Tribbu-SPA-300.png",
+      "name": "Tribbu spa",
+      "package": "30% de descuento en Plan Samay",
+      "descripción": "masaje terapéutico de cuerpo completo, aromaterapia, bambuterapia, musicoterapia, reflexología, copa de   vino",
+      "time": 120,
+      "link": "https://tribbuspa.com/?gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO3htSEOSeE-zrH28dXKv46sRAJSzJu6j3Qk1g3IPzorXCEdctMe3WhoCi58QAvD_BwE#planes"
+    },
+
+    {
+      "_id": 2,
+      "img": "https://makuirabeerspa.com/wp-content/uploads/2020/09/logo-makuira.png",
+      "name": "Makuira Beer spa",
+      "package": "40% de descuento en Plan escapada romántica",
+      "descripción": "Masaje relajante antiestrés, envoltura de chocolate corporal, jacuzzi, sauna detox, piedras volcánicas, 1 jarra de cerveza artesanal, decoración especial",
+      "time": 120,
+      "link": "https://makuirabeerspa.com/producto/sorpresa-romantica/"
+    },
+
+    {
+      "_id": 3,
+      "img": "https://ugc.production.linktr.ee/oiWrmJgjSAi41V5sKhiB_154253520_1635931066608928_2948735840405280808_n.jpg?io=true&size=thumbnail-stack-v1_0",
+      "name": "Baw Thai Spa",
+      "package": "50% de descuento en Plan Thai oriental",
+      "descripción": "Turco, sauna, exfoliante corporal y masajes de aceites aromáticos",
+      "time": 120,
+      "link": "https://bawthaispa.com/product/thai-oriental/"
+    }
+  ]
+}
