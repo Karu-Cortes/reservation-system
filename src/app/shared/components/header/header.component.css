@@ -1,0 +1,82 @@
+header {
+  background-color: #3ADFF2;
+  color: #0B0130;
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.uil {
+  font-size: var(--font-size-3);
+  padding-right: .5rem;
+  font-size: 2.5rem; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #34D399; /* Un tono verde */
+}
+
+
+
+.button-container {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login {
+  background-color: #007BFF; /* Azul */
+  color: white;
+}
+
+.login:hover {
+  background-color: #0056b3; /* Azul más oscuro */
+}
+
+.register {
+  background-color: #34D399; /* Verde */
+  color: white;
+}
+
+.register:hover {
+  background-color: #12b886; /* Verde más oscuro */
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+

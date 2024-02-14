@@ -1,1 +1,16 @@
-<p>header works!</p>
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <!--<a [routerLink]="['']"><img src="" alt="Logo"></a>-->
+        </div>
+        <nav class="navbar">
+            <ul id="nav-list">
+                <li *ngFor="let item of mainMenu.defaulOptions">
+                    <i [ngClass]="['uil',item.icon]"></i> <!--para los iconos-->
+                    <!--<a [routerLink]="item.router">{{ item.name }}</a>-->
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+

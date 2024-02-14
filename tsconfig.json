@@ -19,6 +19,14 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "paths": {
+      //alias de las rutas.
+      "@core/*":["src/app/core/*"],
+      "@modules/*":["src/app/modules/*"],
+      "@shared/*":["src/app/shared/*"]
+    },
+    
+  
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",

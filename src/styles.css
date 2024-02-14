@@ -26,3 +26,5 @@ body{
   font-size: var(--h1);
   color: var(---color--primary);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
