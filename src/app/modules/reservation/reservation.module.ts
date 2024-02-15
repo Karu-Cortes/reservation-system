@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ReservationRoutingModule } from './reservation-routing.module';
 import { ReservationPageComponent } from './pages/reservation-page/reservation-page.component';
+import { SharedModule } from '@shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ReservationPageComponent } from './pages/reservation-page/reservation-p
   ],
   imports: [
     CommonModule,
-    ReservationRoutingModule
+    ReservationRoutingModule,
+    SharedModule
   ]
 })
 export class ReservationModule { }
