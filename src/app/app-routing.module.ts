@@ -4,6 +4,7 @@ import { HomePageComponent } from '@modules/home/pages/home-page/home-page.compo
 
 const routes: Routes = [
 
+  //carga de modulos
   {
     path: 'auth',
     loadChildren:() => import('./modules/auth/auth.module').then(m => m.AuthModule) //ruta raiz cargara el modulo auth.

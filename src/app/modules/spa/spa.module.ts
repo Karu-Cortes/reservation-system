@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { SpaRoutingModule } from './spa-routing.module';
 import { SpaPageComponent } from './pages/spa-page/spa-page.component';
+import { SharedModule } from '@shared/shared.module';
+
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { SpaPageComponent } from './pages/spa-page/spa-page.component';
   ],
   imports: [
     CommonModule,
-    SpaRoutingModule
+    SpaRoutingModule,
+    SharedModule
+    
   ]
 })
 export class SpaModule { }

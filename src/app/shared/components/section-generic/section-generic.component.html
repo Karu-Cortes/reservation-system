@@ -1,1 +1,11 @@
-<p>section-generic works!</p>
+<div class="section--generic">
+  <h1 class="section--generic__title">{{title}}</h1>
+
+  <div class="section--generic__card-spa">
+    <!-- listar para que salgan las tarjetas de spa-->
+          <li *ngFor="let spa of dataSpa">
+            {{spa.name}}
+             <!--<app-card-player [track]="track"></app-card-player>--> 
+          </li>
+  </div>
+</div>

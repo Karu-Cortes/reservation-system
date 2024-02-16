@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { ReservationPageComponent } from './pages/reservation-page/reservation-page.component';
 
 const routes: Routes = [
+
+  //enrutando la página de reservación.
   {
     path:'',
     component: ReservationPageComponent,

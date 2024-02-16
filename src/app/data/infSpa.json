@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "_id": 1,
+      "img": "https://tribbuspa.com/wp-content/uploads/2022/10/Logo-Tribbu-SPA-300.png",
+      "name": "Tribbu spa",
+      "descripción": "Somos diferentes, somos genuinos, somos honestos, Somos Tribbu. Estamos para traer bienestar salud y un escape de la cotidianeidad diferente a los demás.",
+      "link": "https://tribbuspa.com/?gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO3htSEOSeE-zrH28dXKv46sRAJSzJu6j3Qk1g3IPzorXCEdctMe3WhoCi58QAvD_BwE"
+    },
+
+    {
+      "_id": 2,
+      "img": "https://makuirabeerspa.com/wp-content/uploads/2020/09/logo-makuira.png",
+      "name": "Makuira Beer spa",
+      "descripción": "Somos el primer spa de la ciudad que realiza tratamientos corporales y anti estrés con la cerveza y sus ingredientes. Disfruta una sauna de lúpulo, una mascarilla facial de levadura, o tal vez un jacuzzi preparado con cerveza",
+      "link": "https://makuirabeerspa.com"
+    },
+
+    {
+      "_id": 3,
+      "img": "https://ugc.production.linktr.ee/oiWrmJgjSAi41V5sKhiB_154253520_1635931066608928_2948735840405280808_n.jpg?io=true&size=thumbnail-stack-v1_0",
+      "name": "Baw Thai Spa",
+      "descripción": "Viajamos hasta Tailandia para recibir sus reconocidos masajes, pero sin salir de Bogotá, BAW Thai Spa un lugar con toda la mística de la cultura Thai",
+      "link": "https://bawthaispa.com"
+    },
+
+    {
+      "_id": 4,
+      "img": "https://kanaiwaspa.com/wp-content/uploads/2017/09/identificador.png",
+      "name": "Kanaiwa spa",
+      "descripción": "es un lugar que hace las veces de oasis de paz y relajación ubicado en la ciudad de Bogotá. Un espacio único donde las tensiones desaparecen y un estado de tranquilidad pura abraza su cuerpo, mente y espíritu.",
+      "link": "https://kanaiwaspa.com/"
+    },
+
+    {
+      "_id": 5,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-anvUhkzr9FC97vWEUthBQuXBIkZG6nJXlw&usqp=CAU",
+      "name": "Samai salud estética y spa",
+      "descripción": "vivirás una experiencia inolvidable con esa persona que tanto quieres. Disfrutarán de un masaje de relajación en todo el cuerpo, mascarilla facial de chocolate, postre y copa de vino... entre otros.",
+      "link": "https://www.instagram.com/samaispa/?hl=es-la"
+    },
+
+    {
+      "_id": 6,
+      "img": "https://elitestudiosbyjhonsaavedra.com/wp-content/uploads/2021/12/cropped-Diseno-sin-titulo-63.png",
+      "name": "Elite Studio spa",
+      "descripción": "formada con la preparación y experiencia que da el pertenecer y hacer parte de la belleza que nos permite mejorar tu imagen, partiendo desde tu ser interno, de la mano de especialistas para cada área de tu cuerpo",
+      "link": "https://elitestudiosbyjhonsaavedra.com/"
+    }
+  ]
+}
