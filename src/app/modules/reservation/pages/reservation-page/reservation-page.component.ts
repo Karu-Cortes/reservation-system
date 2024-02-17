@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReservationPageComponent implements OnInit{
 
-  
+  constructor(){
+    
+  }
+
   ngOnInit(): void {
   
   }

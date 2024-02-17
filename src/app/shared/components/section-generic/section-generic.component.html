@@ -1,11 +1,10 @@
 <div class="section--generic">
-  <h1 class="section--generic__title">{{title}}</h1>
+  <img class="section--generic__banner" src="../../../../assets/image/Banner Masajes Spa Organico Marron.png" alt="">
 
   <div class="section--generic__card-spa">
     <!-- listar para que salgan las tarjetas de spa-->
           <li *ngFor="let spa of dataSpa">
-            {{spa.name}}
-             <!--<app-card-player [track]="track"></app-card-player>--> 
+            <app-card-spa [spa]="spa"></app-card-spa>
           </li>
   </div>
 </div>

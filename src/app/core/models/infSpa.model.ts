@@ -1,6 +1,7 @@
-export interface SpaModel {
+export interface InfSpaModel {
+  _id:number;
   img: string;
   name: string;
-  descripción: string;
+  description: string;
   link: string;
 }

@@ -1,1 +1,13 @@
-<p>card-spa works!</p>
+<div class="container">
+  <div class="card-spa">
+    <img appImgBroken [src]="spa.img" class="card-img-top" alt="Imagen del servicio spa">
+    <div class="content-spa">
+      <div class="title-spa">{{spa.name}}</div>
+      <div class="decription-spa">{{spa.description}}</div>
+    </div>
+    <div class="card-body">
+      <a class="btn btn-primary" href="{{spa.link}}" target="_blank">Más información</a>
+    </div>
+  </div>
+</div>
+
