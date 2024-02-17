@@ -6,6 +6,7 @@ import { CardBookingComponent } from './components/card-booking/card-booking.com
 import { CardSpaComponent } from './components/card-spa/card-spa.component';
 import { SectionGenericComponent } from './components/section-generic/section-generic.component';
 import { RouterModule } from '@angular/router';
+import { OrderListPipe } from './pipe/order-list.pipe';
 
 
 
@@ -17,6 +18,7 @@ import { RouterModule } from '@angular/router';
     CardBookingComponent,
     CardSpaComponent,
     SectionGenericComponent,
+    OrderListPipe,
     
   ],
   imports: [
@@ -30,6 +32,7 @@ import { RouterModule } from '@angular/router';
     CardBookingComponent,
     CardSpaComponent,
     SectionGenericComponent,
+    OrderListPipe,
   
   ]
 })

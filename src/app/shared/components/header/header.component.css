@@ -75,25 +75,25 @@ header {
 }
 
 .login {
-  background-color: #ff889cab; 
-  color: #0B0130;
+  background-color: #0B0130; 
+  color: #3CDFF1;
   font-weight: bold;
 }
 
 .login:hover {
-  background-color: #f46179;
+  background-color: #0b0130a6;
   color:white;
   box-shadow: 0 0 10px #fff;
 }
 
 .register {
-  background-color: #7de3cf; 
-  color: #0B0130;
+  background-color: #0B0130; 
+  color: #3CDFF1;
   font-weight: bold;
 }
 
 .register:hover {
-  background-color: #056d58;
+  background-color: #0b0130a6;
   color:white;
   box-shadow: 0 0 10px #fff;
 }

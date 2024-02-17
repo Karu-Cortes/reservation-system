@@ -42,12 +42,5 @@ export class HeaderComponent implements OnInit {
         router: ['/',"about-us"],
       },
     ];
-
-    this.mainMenu.accessLink = [
-      {
-        name: 'Iniciar Sesión',
-      },
-      { name: 'Registrarse' },
-    ];
   }
 }
