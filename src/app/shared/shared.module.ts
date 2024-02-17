@@ -5,6 +5,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardBookingComponent } from './components/card-booking/card-booking.component';
 import { CardSpaComponent } from './components/card-spa/card-spa.component';
 import { SectionGenericComponent } from './components/section-generic/section-generic.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -19,7 +20,8 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
     
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule //para poder acceder al routerlink
     
   ],
   exports:[

@@ -1,7 +1,6 @@
 header {
-  background-color: #3ADFF2;
+  background-color: #3CDFF1;
   color: #0B0130;
-  padding: 10px 0;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -12,38 +11,52 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 5px;
 }
 
 .logo img {
-  height: 40px;
+  padding-left: 5px;
+  height: 5rem;
 }
 
-.uil {
-  font-size: var(--font-size-3);
-  padding-right: .5rem;
-  font-size: 2.5rem; 
+.logo img:hover{
+  transform: scale(1.1);
 }
 
 .navbar ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  margin: 0;
+  
 }
 
-.navbar ul li {
+.navbar li {
   margin: 0 10px;
 }
 
-.navbar ul li a {
-  color: white;
+.menu-item {
+  display: flex;
+  align-items: center;
+  color:#0B0130;
+  font-weight: bold;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.navbar ul li a:hover {
-  color: #34D399; /* Un tono verde */
+.menu-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #fff;
+  border-radius: 7px;
+}
+
+.menu-item i {
+  padding-right: .5rem;
+  font-size: 2.5rem; 
+}
+
+.menu-item span {
+  padding-right: .5rem;
+  font-size: 1rem;
 }
 
 
@@ -62,25 +75,27 @@ header {
 }
 
 .login {
-  background-color: #007BFF; /* Azul */
-  color: white;
+  background-color: #ff889cab; 
+  color: #0B0130;
+  font-weight: bold;
 }
 
 .login:hover {
-  background-color: #0056b3; /* Azul más oscuro */
+  background-color: #f46179;
+  color:white;
+  box-shadow: 0 0 10px #fff;
 }
 
 .register {
-  background-color: #34D399; /* Verde */
-  color: white;
+  background-color: #7de3cf; 
+  color: #0B0130;
+  font-weight: bold;
 }
 
 .register:hover {
-  background-color: #12b886; /* Verde más oscuro */
+  background-color: #056d58;
+  color:white;
+  box-shadow: 0 0 10px #fff;
 }
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+
 

@@ -1,16 +1,21 @@
 <header>
     <div class="header-container">
         <div class="logo">
-            <!--<a [routerLink]="['']"><img src="" alt="Logo"></a>-->
+            <a [routerLink]="['']"><img src="../../../../assets/image/logo_sin_fondo.png" alt="Logo"></a>
         </div>
         <nav class="navbar">
             <ul id="nav-list">
                 <li *ngFor="let item of mainMenu.defaulOptions">
-                    <i [ngClass]="['uil',item.icon]"></i> <!--para los iconos-->
-                    <!--<a [routerLink]="item.router">{{ item.name }}</a>-->
+                    <a [routerLink]="item.router" class="menu-item">
+                        <i [ngClass]="['uil',item.icon]"></i> <!--para los iconos-->
+                        <span>{{ item.name }}</span>
+                    </a>
                 </li>
             </ul>
         </nav>
+        <div class="session-icons">
+            <button [routerLink]="['']" class="btn login">Iniciar Sesión</button>
+            <button [routerLink]="['']" class="btn register">Registrarse</button>
+        </div>
     </div>
 </header>
-

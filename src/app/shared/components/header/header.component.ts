@@ -27,19 +27,19 @@ export class HeaderComponent implements OnInit {
       {
         name: 'reservas',
         icon: 'uil uil-clipboard-notes',
-        router: ['/'],
+        router: ['/',"reservation"],
       },
 
       {
-        name: 'Información Spa afiliados',
+        name: 'Spas afiliados',
         icon: 'uil uil-yin-yang',
-        router: ['/'],
+        router: ['/',"spa"],
       },
 
       {
         name: 'Nosotros',
         icon: 'uil uil-grin-tongue-wink-alt',
-        router: ['/'],
+        router: ['/',"about-us"],
       },
     ];
 
