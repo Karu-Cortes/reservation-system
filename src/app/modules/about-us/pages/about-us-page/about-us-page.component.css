@@ -1,3 +1,33 @@
-.aboutUs-page{
-  padding: 1rem;
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: #0B0130;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section img {
+  width: 45%;
+  height: auto;
+}
+
+.section p {
+  width: 45%;
+  font-size: 15px;
+}
+
+.section.reverse {
+  flex-direction: row-reverse;
+}
+
+.span{
+  font-size: 20px;
+  font-weight:bold;
+  text-align: center;
 }

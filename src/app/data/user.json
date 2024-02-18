@@ -1,0 +1,29 @@
+{
+  "data":
+  [
+    {
+      "id": 1,
+      "name": "karen cortes",
+      "email": "karen07@gmail.com",
+      "password": "$2a$10$7Ys6wWlJRv4axyuU9WDYzeJ7RtpcDeF9mgisL51YMYix.NaAyZExm",
+      "role": "USER",
+      "enable": true
+    },
+    {
+      "id": 252,
+      "name": "lupita paez",
+      "email": "lalupa79@gmail.com",
+      "password": "prueba1234",
+      "role": "USER",
+      "enable": true
+    },
+    {
+      "id": 302,
+      "name": "Gloria Trevi",
+      "email": "matrevi@gmail.com",
+      "password": "prueba1234",
+      "role": "USER",
+      "enable": true
+    }
+  ]
+}

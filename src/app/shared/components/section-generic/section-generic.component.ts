@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { InfSpaModel } from '@core/models/infSpa.model';
+import { SpaModel } from '@core/models/spa.model';
 
 @Component({
   selector: 'app-section-generic',
@@ -8,9 +9,10 @@ import { InfSpaModel } from '@core/models/infSpa.model';
 })
 export class SectionGenericComponent implements OnInit{
 
-  @Input() title:string = '' //titulo para el manejo de section generic 
   @Input() dataSpa:Array<InfSpaModel>=[] //lista de tarjetas del spa
-  @Input() welcomeSpa: string='';
+
+  @Input() dataBooking:Array<SpaModel>=[] //lista de tarjetas del booking
+  
 
   constructor() {
     

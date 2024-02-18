@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": 202,
+      "name": "Tribbu spa",
+      "description": "30% de descuento en Plan Samay:masaje terapéutico de cuerpo completo, aromaterapia, bambuterapia, musicoterapia, reflexología, copa de   vino ",
+      "imageUrl": "https://tribbuspa.com/wp-content/uploads/2015/01/4-Galeria-Tribbu-SPA.jpg"
+    },
+
+    {
+      "id": 203,
+      "name": "Makuira Beer spa",
+      "description": "40% de descuento en Plan escapada romántica: Masaje relajante antiestrés, envoltura de chocolate corporal, jacuzzi, sauna detox, piedras volcánicas, 1 jarra de cerveza artesanal, decoración especial",
+      "imageUrl": "https://makuirabeerspa.com/wp-content/uploads/2022/02/IMG_0998-scaled.jpg"
+    },
+
+    {
+      "id": 205,
+      "name": "Baw Thai Spa",
+      "description": "50% de descuento en Plan Thai oriental: Turco, sauna, exfoliante corporal y masajes de aceites aromáticos",
+      "imageUrl": "https://bawthaispa.com/wp-content/uploads/2017/12/Thai-con-plantas-Baw.jpg"
+    },
+
+    {
+      "id": 206,
+      "name": "Kanaiwa spa",
+      "description": "5% de descuento en Plan Zafiro Love: Sauna, turco, ducha bitérmica secuencial, 2 copas de vino, decoración especial, musicoterapia",
+      "imageUrl": "https://kanaiwaspa.com/wp-content/uploads/2020/11/aqua-sense.jpg"
+    },
+
+    {
+      "id": 207,
+      "name": "Samai salud estética y spa",
+      "description": "2% de descuento en Plan Spa para amigas: masajes, sauna, hidromasaje, chocolaterapia, porción de torta y 2 copas de vino",
+      "imageUrl": "https://www.atrapalo.com.co/ou/static/_next/image/?url=https%3A%2F%2Fcdn.atrapalo.com%2Fcommon%2Fphoto%2Fevent%2F4%2F8%2F3%2F5802%2F1055669%2Ftic_0_0.jpg&w=723&q=75"
+    },
+    
+    {
+      "id": 208,
+      "name": "Elite Studio spa",
+      "description": "24% de descuento en Plan masajes:Masajes con aceites esenciales,masajes relajantes descontructurantes, Mascarilla para piel, antioxidante, orgánica,Bambuerapia, tina Jacuzzi con hidromasaje, aromaterapia tropical, decoración tropical.",
+      "imageUrl": "https://www.atrapalo.com.co/ou/static/_next/image/?url=https%3A%2F%2Fcdn.atrapalo.com%2Fcommon%2Fphoto%2Fevent%2F4%2F9%2F0%2F6623%2F1555864%2Ftic_0_0.jpg&w=723&q=75"
+    }
+  ]
+}

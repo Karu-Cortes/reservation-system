@@ -7,6 +7,8 @@ import { CardSpaComponent } from './components/card-spa/card-spa.component';
 import { SectionGenericComponent } from './components/section-generic/section-generic.component';
 import { RouterModule } from '@angular/router';
 import { OrderListPipe } from './pipe/order-list.pipe';
+import { CarouselComponent } from './components/carousel/carousel.component';
+
 
 
 
@@ -19,6 +21,8 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     CardSpaComponent,
     SectionGenericComponent,
     OrderListPipe,
+    CarouselComponent,
+  
     
   ],
   imports: [
@@ -33,6 +37,7 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     CardSpaComponent,
     SectionGenericComponent,
     OrderListPipe,
+    CarouselComponent,
   
   ]
 })

@@ -1,1 +1,15 @@
-<p>card-booking works!</p>
+  <div class="container">
+    <div class="card-booking">
+      <img appImgBroken [src]="booking.imageUrl" class="card-img-top"
+        alt="Imagen del servicio booking">
+      <div class="content-booking">
+        <div class="title-booking">{{booking.name}}</div>
+        <div class="decription-booking">{{booking.description}}
+        </div>
+      </div>
+      <div class="card-body">
+        <a [routerLink]="['', booking.id]" class="btn btn-primary">Reservar</a>
+      </div>
+    </div>
+  </div>
+  
