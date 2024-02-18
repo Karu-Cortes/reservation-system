@@ -8,6 +8,7 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
 import { RouterModule } from '@angular/router';
 import { OrderListPipe } from './pipe/order-list.pipe';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { ImgBrokenDirective } from './directives/img-broken.directive';
 
 
 
@@ -22,6 +23,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     SectionGenericComponent,
     OrderListPipe,
     CarouselComponent,
+    ImgBrokenDirective,
   
     
   ],
@@ -38,7 +40,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     SectionGenericComponent,
     OrderListPipe,
     CarouselComponent,
-  
+    ImgBrokenDirective,  
   ]
 })
 export class SharedModule { }

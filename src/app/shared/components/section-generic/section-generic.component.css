@@ -2,10 +2,11 @@
 .section--generic__card-spa {
   display: grid;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   gap: 1.15rem;
-  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  
 }
 
 .section--generic__card-booking {

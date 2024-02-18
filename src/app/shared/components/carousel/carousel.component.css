@@ -1,4 +1,5 @@
 .carousel-item img {
+  margin: 0;
   object-fit:cover; /* Esto asegura que la imagen cubra el área sin perder su aspecto */
-  height: 100%; /* Altura fija para todas las imágenes del carrusel */
+  height: 560px; /* Altura fija para todas las imágenes del carrusel */
 }

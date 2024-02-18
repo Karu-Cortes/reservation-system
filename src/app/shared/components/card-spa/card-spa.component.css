@@ -4,7 +4,7 @@
 }  
 
 .card-spa{
-  width: 12rem;
+  width: 20rem;
   height: auto;
   margin: auto;
   margin-bottom: 1rem;
@@ -38,6 +38,7 @@
   font-size: 15px; 
   color: #0b0130bd; 
   height: 9rem;
+  text-align: center;
 }
 
 .card-body {
