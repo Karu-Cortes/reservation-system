@@ -86,6 +86,7 @@
 }
 
 
+
 /*formulario*/
 .login-auth-page .separator {
   width: 100%;
@@ -158,7 +159,14 @@
   margin: 5px;
 }
 
+.login:disabled{
+  opacity: .5;
+  pointer-events: none; /*cancela hover mientras este activo*/
+}
 
+.login:hover{
+  transform: scale(1.1);
+}
 
 
 input.ng-invalid.ng-touched {
