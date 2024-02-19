@@ -5,7 +5,7 @@ en el botón "reservar" y realizar su correspondiente reservación sin antes hab
 
 Qué funcionalidades tiene hasta este punto y que funcionalidades tienes planeadas agregar:
 
-Tiene todo el diseño web de la página y las funcionalidades que estoy trabajando para agregar a la aplicación, es el llamado del back al front  para el put push get post
+Tiene el diseño de reservas y del spa y las funcionalidades que estoy trabajando para agregar a la aplicación, es seguir completando los diseños y y realizar la parte del auth
 
 Una explicación en tus palabras de alguno de los temas que más te haya gustado:
 
