@@ -135,6 +135,17 @@
   text-decoration: underline;
 }
 
+
+.form-steps a {
+  color: #0B0130;
+  text-decoration: none;
+}
+
+.form-steps a:hover {
+  color: #3ADFF2
+}
+
+
 .login-auth-page .login-auth-form .form-steps .link:hover {
   color: #3ADFF2;
 }
