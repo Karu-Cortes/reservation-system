@@ -9,7 +9,7 @@ export class ImgBrokenDirective {
     const elNative = this.elHost.nativeElement
     console.log('error imagen',this.elHost)
 
-  elNative.src = '../../../../assets/image/imagen_no_disponible.webp'
+  elNative.src = 'https://i.postimg.cc/1mxM0p76/imagen-no-disponible.webp'
   }
 
   constructor(private elHost: ElementRef) {

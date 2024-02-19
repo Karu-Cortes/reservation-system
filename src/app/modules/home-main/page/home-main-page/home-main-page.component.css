@@ -3,7 +3,7 @@
   width: 100%;
   height: 500px;
   /* Aquí se coloca la ruta a la imagen de fondo que quieres usar */
-  background-image: url('../../../../../assets/image/fondo-banner-home.webp');
+  background-image: url('https://i.postimg.cc/QjHqR6R1/fondo-banner-home.webp');
   background-size: cover;
   display: flex;
   justify-content: center;
