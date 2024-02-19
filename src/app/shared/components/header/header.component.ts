@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '@modules/auth/services/auth.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -6,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
+
+  isLoggedIn: boolean = false;
+  fullName?: string;
+  initials?: string;
+  private userInfoSubscription?: Subscription;
+
+  
   mainMenu: {
     defaulOptions: Array<any>;
     accessLink: Array<any>;
@@ -13,10 +22,12 @@ export class HeaderComponent implements OnInit {
 
   customOptions: Array<any> = [];
 
-  ConstructorParameters() {}
+  constructor(private authService: AuthService){}
 
   //ciclo inicial llamado de servicios o url
   ngOnInit(): void {
+    
+
     this.mainMenu.defaulOptions = [
       {
         name: 'Home',

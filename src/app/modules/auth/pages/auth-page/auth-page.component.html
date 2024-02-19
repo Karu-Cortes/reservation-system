@@ -7,7 +7,7 @@
           <button class="social-btn btn-google"><i class="uil uil-google"></i> Continuar con Google</button>
       </div>
       <div class="separator"></div>
-      <form (ngSubmit)="sendLogin()" [formGroup]="formLogin"  class="login-auth-form">
+      <form (ngSubmit)="sendLogin(formLogin.value.email, formLogin.value.password)" [formGroup]="formLogin"  class="login-auth-form">
           <div class="form-group">
               <label for="email">Dirección de correo</label>
               <input formControlName="email" type="text" placeholder="Dirección de correo" class="form-input">
@@ -19,8 +19,8 @@
           <div class="form-steps">
               <a class="/home" href="">Volver al home</a>
           </div>
-          <div >
-              Ocurrio un error con tu email o password
+           <div class="register">
+            ¿No estás registrado? <a routerLink="/auth/register">Regístrate aquí</a>
           </div>
           <div class="form-action">
               <button [disabled]="formLogin.invalid" class="login ">Iniciar sesión</button>
