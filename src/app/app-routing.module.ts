@@ -4,7 +4,7 @@ import { HomePageComponent } from '@modules/home/pages/home-page/home-page.compo
 
 const routes: Routes = [
 
-  //carga de modulos
+  //carga de modulos Lazy Loading
   {
     path: 'auth',
     loadChildren:() => import('./modules/auth/auth.module').then(m => m.AuthModule) //ruta raiz cargara el modulo auth.

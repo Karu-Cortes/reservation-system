@@ -6,6 +6,7 @@ import { ReservationPageComponent } from './pages/reservation-page/reservation-p
 import { SharedModule } from '@shared/shared.module';
 import { FormBookingPageComponent } from './pages/form-booking-page/form-booking-page.component';
 import { ReservationListPageComponent } from './pages/reservation-list-page/reservation-list-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -21,7 +22,8 @@ import { ReservationListPageComponent } from './pages/reservation-list-page/rese
   imports: [
     CommonModule,
     ReservationRoutingModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
    
   ]
 })
