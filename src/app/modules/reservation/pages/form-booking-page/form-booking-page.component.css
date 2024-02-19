@@ -1,0 +1,86 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fdcb7f;
+}
+.formulary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color:#3ae0f291;
+  color: #0B0130;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+  width: 50%;
+  
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.information img{
+  width: 8rem;
+  
+}
+
+.information h2{
+padding-top: 20px;
+font-size: 25px;
+font-weight:600;
+}
+
+.information h2, p {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Esto separa la sección del h2 y el p del div del form */
+}
+
+form label,
+form input {
+  width: 100%;
+  margin: 5px 0;
+}
+
+form input[type="submit"] {
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #3ADFF2;
+  font-weight:500;
+  background-color: #0B0130 ;
+  border-color: #0B0130 ;
+}
+
+form input[type="submit"] :hover{
+  background-color: #0B0130;
+  color:#3ADFF2;
+  box-shadow: 0 0 10px #3ADFF2;
+}
+
+form input[type="submit"]:hover {
+  color:white;
+  box-shadow: 0 5px 10px white;
+}

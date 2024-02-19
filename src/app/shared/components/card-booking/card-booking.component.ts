@@ -1,5 +1,6 @@
 import { Component,Input, OnInit } from '@angular/core';
 import { SpaModel } from '@core/models/spa.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card-booking',

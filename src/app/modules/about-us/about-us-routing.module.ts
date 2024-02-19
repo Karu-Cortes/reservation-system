@@ -5,10 +5,12 @@ import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.compon
 const routes: Routes = [
 
    //enrutando la página de about-us.
-   {
-    path:'',
-    component: AboutUsPageComponent,
-    outlet: 'child'
+   {path: '',
+  children: [
+    {
+      path: '', component: AboutUsPageComponent
+    }
+  ]
   }
 ];
 

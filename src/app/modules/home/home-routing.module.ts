@@ -6,6 +6,10 @@ const routes: Routes = [
 
   //llamado de modulos renderizados en el home.
   {
+    path:'home-main',
+    loadChildren: () => import('@modules/home-main/home-main.module').then(m => m.HomeMainModule)
+  },
+  {
     path:'reservation',
     loadChildren: () => import('@modules/reservation/reservation.module').then(m => m.ReservationModule)
   },
@@ -17,10 +21,9 @@ const routes: Routes = [
     path:'about-us',
     loadChildren: () => import('@modules/about-us/about-us.module').then(m => m.AboutUsModule)
   },
-
   {
     path:'**',
-    redirectTo:'reservation' //para que siempre redireccione a reservation
+    redirectTo:'home-main' //para que siempre redireccione home main
   }
   
 ];

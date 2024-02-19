@@ -4,10 +4,12 @@ import { SpaPageComponent } from './pages/spa-page/spa-page.component';
 
 const routes: Routes = [
   //enrutando la página de spa.
-  {
-    path:'',
-    component: SpaPageComponent,
-    outlet: 'child'
+  {path: '',
+  children: [
+    {
+      path: '', component: SpaPageComponent
+    }
+  ]
   }
 ];
 
