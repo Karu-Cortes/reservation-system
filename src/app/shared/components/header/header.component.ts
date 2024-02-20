@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   fullName?: string;
   initials?: string;
   private userInfoSubscription?: Subscription;
+  private authSubscription?: Subscription;
 
   
   mainMenu: {
@@ -22,11 +23,16 @@ export class HeaderComponent implements OnInit {
 
   customOptions: Array<any> = [];
 
-  constructor(private authService: AuthService){}
+  constructor(public authService: AuthService){}
 
   //ciclo inicial llamado de servicios o url
   ngOnInit(): void {
     
+    this.authSubscription = this.authService.isLoggedIn$.subscribe(
+      (loggedIn) => {
+        this.isLoggedIn = loggedIn;
+      }
+    );
 
     this.mainMenu.defaulOptions = [
       {
@@ -53,5 +59,10 @@ export class HeaderComponent implements OnInit {
         router: ['/',"about-us"],
       },
     ];
+  }
+
+  ngOnDestroy(): void {
+    // Limpieza al destruir el componente
+    this.authSubscription?.unsubscribe();
   }
 }

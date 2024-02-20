@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import * as dataspaBJson from '../../../../data/spa.json'; //mock
 import { SpaModel } from '@core/models/spa.model';
+import { CardBookingService } from '@shared/services/card-booking.service';
+
 
 
 @Component({
@@ -11,14 +12,22 @@ import { SpaModel } from '@core/models/spa.model';
 export class ReservationPageComponent implements OnInit {
   mockSpabList: Array<SpaModel> = [];
 
-  constructor() {
+
+  constructor(private cardBookingService: CardBookingService) {
   }
 
-
-
   ngOnInit(): void {
-    const { data }: any = (dataspaBJson as any).default;
-    //listado del json de infSpa
-    this.mockSpabList = data;
+    this.loadSpas();
+  }
+
+  loadSpas(): void {
+    this.cardBookingService.getSpas().subscribe({
+      next: (spas) => {
+        this.mockSpabList = spas;
+      },
+      error: (error) => {
+        console.error('Error al obtener la lista de spas:', error);
+      }
+    });
   }
 }

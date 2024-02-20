@@ -1,20 +1,23 @@
 <div class="formulary">
   <div class="form-container">
     <div class="information">
-      <img appImgBroken src="https://i.postimg.cc/3JbFkpDk/logo-sin-fondo.webp" alt="">
+      <img src="https://i.postimg.cc/3JbFkpDk/logo-sin-fondo.webp" alt="">
       <h2>Reserva tu cita de spa</h2>
       <p>Por favor, completa el siguiente formulario para reservar tu cita. El spa asociado se
         pondrá en contacto contigo lo antes posible para confirmar tu reserva.</p>
     </div>
-    <div (ngSubmit)="sedForm()" [formGroup]="formBooking" class="form">
-      <form action=" " method="post">
+    <form [formGroup]="formBooking" (ngSubmit)="sedForm()" class="form">
+      <div class="form-group">
         <label for="date">Fecha y hora:</label><br>
-        <input formControlName="date" type="datetime-local" id="date" name="date"><br>
-        <label for="phone">Celular:</label><br>
-        <input formControlName="phone" type="tel" id="phone" name="phone"><br>
-        <input [disabled]="formBooking.invalid" type="submit" value="Reservar">
-      </form>
-    </div>
+        <input formControlName="date" type="datetime-local" id="date" name="date">
+      </div>
+      <mat-form-field appearance="fill">
+        <mat-label>Celular</mat-label>
+        <input matInput formControlName="phone" type="tel">
+      </mat-form-field>
+      <button mat-raised-button color="primary" [disabled]="formBooking.invalid"
+        type="submit">Reservar</button>
+    </form>
     <div>
       <hr>
       Raw: {{formBooking.value | json}}

@@ -13,9 +13,13 @@
                 </li>
             </ul>
         </nav>
-        <div class="session-icons">
+        <div class="session-icons" *ngIf="!isLoggedIn">
             <button [routerLink]="['/auth/login']" class="btn login">Iniciar Sesión</button>
             <button [routerLink]="['/auth/register']" class="btn register">Registrarse</button>
-        </div>
+          </div>
+          <div class="session-icons" *ngIf="isLoggedIn">
+            <button (click)="authService.logout()" class="btn login">Cerrar Sesión</button>
+          </div>
+          
     </div>
 </header>

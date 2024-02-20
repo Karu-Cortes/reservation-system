@@ -9,18 +9,19 @@ import { Router } from '@angular/router';
 })
 export class CardBookingComponent implements OnInit{
 
-  @Input() booking:SpaModel={
+  @Input() booking: SpaModel = {
     id: 0,
     name: '',
     description: '',
     imageUrl: ''
-  }
+  };
 
-  constructor() {
-    
-  }
-  ngOnInit(): void {
-    
+  constructor(private router: Router) {}
+
+  ngOnInit(): void {}
+
+  navigateToForm(): void {
+    this.router.navigate(['/reservation/form'], { state: { spaId: this.booking.id } });
   }
 
 }

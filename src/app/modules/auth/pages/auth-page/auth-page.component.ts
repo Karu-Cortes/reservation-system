@@ -37,6 +37,7 @@ sendLogin(email: string, password: string): void {
   this.authService.sendCredential(email, password).subscribe({
     next: (response) => {
       console.log('Inicio de sesión exitoso', response);
+      this.authService.getTokenClaims()
       // Aquí podrías redirigir a la página de inicio de sesión exitosa o realizar otras acciones necesarias
     },
     error: (error) => {

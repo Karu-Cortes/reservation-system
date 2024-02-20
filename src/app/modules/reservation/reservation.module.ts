@@ -6,9 +6,13 @@ import { ReservationPageComponent } from './pages/reservation-page/reservation-p
 import { SharedModule } from '@shared/shared.module';
 import { FormBookingPageComponent } from './pages/form-booking-page/form-booking-page.component';
 import { ReservationListPageComponent } from './pages/reservation-list-page/reservation-list-page.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
+import { MatListModule } from '@angular/material/list';
+import { MatTableModule } from '@angular/material/table';
 
 
 
@@ -21,10 +25,18 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    ReservationRoutingModule,
     SharedModule,
-    ReactiveFormsModule
-   
+    ReactiveFormsModule,
+    ReservationRoutingModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatListModule,
+    MatTableModule
+
   ]
 })
 export class ReservationModule { }
