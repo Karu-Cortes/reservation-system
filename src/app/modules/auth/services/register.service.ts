@@ -11,6 +11,8 @@ export class RegisterService {
 
   private readonly URL  = environment.api
   constructor(private http: HttpClient,  private router:Router) { }
+
+ //Observable  método this.http.post(...). Este Observable representa la petición HTTP POST 
   
   registerUser(name: string, email: string, password: string): Observable<any> {
     const user = { name, email, password, role: 'USER'};
@@ -18,6 +20,8 @@ export class RegisterService {
     return this.http.post(`${this.URL}/auth/register`, user, { observe: 'response', responseType: 'text' })
       .pipe(
         tap(response => {
+
+          //observador
           if (response.status === 201) {
             console.log('Registro exitoso', response.body);
             this.router.navigate(['/auth/login']);
