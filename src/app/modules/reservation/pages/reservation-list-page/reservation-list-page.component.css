@@ -1,0 +1,32 @@
+h2 {
+  padding-top: 20px;
+  color: #0B0130;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #3ADFF2;
+  border-radius: 10px; 
+}
+
+
+
+th,td {
+  padding: 10px;
+  text-align: left;
+  color: #0B0130;
+  background-color: #3ae0f25d;
+}
+
+
+table.mat-table td img {
+  max-width: 50px;
+  height: auto;
+}

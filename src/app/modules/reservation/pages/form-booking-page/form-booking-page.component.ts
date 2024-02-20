@@ -28,6 +28,7 @@ export class FormBookingPageComponent implements OnInit {
         Validators.required,
         Validators.minLength(10),
         Validators.maxLength(13),
+        Validators.pattern('^[0-9]*$')
       ]),
     });
   }

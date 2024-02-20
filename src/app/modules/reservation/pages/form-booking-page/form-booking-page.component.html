@@ -10,17 +10,11 @@
       <div class="form-group">
         <label for="date">Fecha y hora:</label><br>
         <input formControlName="date" type="datetime-local" id="date" name="date">
+        <label for="date">Celular:</label><br>
+        <input formControlName="phone" type="tel">
       </div>
-      <mat-form-field appearance="fill">
-        <mat-label>Celular</mat-label>
-        <input matInput formControlName="phone" type="tel">
-      </mat-form-field>
       <button mat-raised-button color="primary" [disabled]="formBooking.invalid"
         type="submit">Reservar</button>
     </form>
-    <div>
-      <hr>
-      Raw: {{formBooking.value | json}}
-    </div>
   </div>
 </div>

@@ -59,7 +59,7 @@ form input {
   margin: 5px 0;
 }
 
-form input[type="submit"] {
+button {
   padding: 10px 32px;
   text-align: center;
   text-decoration: none;
@@ -74,22 +74,21 @@ form input[type="submit"] {
   border-color: #0B0130 ;
 }
 
-form input[type="submit"] :hover{
+button:hover{
   background-color: #0B0130;
   color:#3ADFF2;
   box-shadow: 0 0 10px #3ADFF2;
-}
-
-form input[type="submit"]:hover {
   color:white;
   box-shadow: 0 5px 10px white;
 }
+
+
 
 input.ng-invalid.ng-touched {
   border: solid 2px red !important
 }
 
-form input[type="submit"]:disabled{
+button:disabled{
   opacity: .5;
 }
 

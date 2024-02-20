@@ -60,7 +60,7 @@ export class AuthService {
   logout(): void {
     this.cookies.delete('token', '/');
     this.isLoggedIn.next(false); 
-    this.router.navigate(['/auth/login']);
+    this.router.navigate(['home']);
   }
   private hasToken(): boolean {
     return !!this.cookies.get('token');

@@ -46,7 +46,6 @@ export class HeaderComponent implements OnInit {
         icon: 'uil uil-clipboard-notes',
         router: ['/',"reservation"],
       },
-
       {
         name: 'Spas afiliados',
         icon: 'uil uil-yin-yang',
